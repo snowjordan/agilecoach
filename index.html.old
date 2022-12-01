@@ -14,10 +14,10 @@
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active"> <a class="nav-link" href="#failures">Failure and Success <span class="sr-only">(current)</span></a> </li>
-          <li class="nav-item"> <a class="nav-link" href="#failures">Agile Benefits</a> </li>
+          <li class="nav-item active"> <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#">Link</a> </li>
           <li class="nav-item dropdown">
-             <li class="nav-item active"> <a class="nav-link" href="#">Agile Implementation<span class="sr-only">(current)</span></a></li>
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Dropdown </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a>
               <div class="dropdown-divider"></div>
@@ -26,10 +26,10 @@
           </li>
           <li class="nav-item"> <a class="nav-link disabled" href="#">Disabled</a> </li>
         </ul>
-       <!-- <form class="form-inline my-2 my-lg-0">
-           <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>-->
+        </form>
       </div>
     </nav>
     <header>
@@ -52,7 +52,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 mb-4 mt-2 text-center">
-            <h2 id="failures">How often do projects fail?&nbsp;</h2>
+            <h2>How often do projects fail?&nbsp;</h2>
           </div>
         </div>
       </div>
@@ -93,11 +93,11 @@
 		  
       <div class="container ">
         <div class="row" style = "background: #847BEB">
-          <div class="col-lg-4 col-md-6 col-sm-12 text-center"> <strong><img width="130px;" height="113px;" src="https://lh3.googleusercontent.com/YF1SoCIWa0CvJ7dtc3EGZ_CW8quJRaCOu7MLmwpeO80HeYGzcvl5nZ4Y_UUQ4IUB-LyCjQ-2GPLgdb3-tsP1ZUhkgYIRg6FpgIuPKHJsaxWDmTeohaehsfYrkw0SapZYzUgpvs5eoAJt1EQwzYCIeUzX5MYd0YJDMHFhT5JBZSCoAmsmd7Z7J1x1IvWce08f" /></strong>
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center"> <strong id="docs-internal-guid-bb0d4269-7fff-041e-f0dc-c53481711f85"><img width="130px;" height="113px;" src="https://lh3.googleusercontent.com/YF1SoCIWa0CvJ7dtc3EGZ_CW8quJRaCOu7MLmwpeO80HeYGzcvl5nZ4Y_UUQ4IUB-LyCjQ-2GPLgdb3-tsP1ZUhkgYIRg6FpgIuPKHJsaxWDmTeohaehsfYrkw0SapZYzUgpvs5eoAJt1EQwzYCIeUzX5MYd0YJDMHFhT5JBZSCoAmsmd7Z7J1x1IvWce08f" /></strong>
             <h3>Ecosystem imbalance</h3>
             <p class="text-center">Companies do not set their projects up for success or transform the business to support the endeavor.</p>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 text-center"><strong><img width="113px;" height="113px;" src="https://lh4.googleusercontent.com/dwYSz4ZVCg0npTOswqr5xZ6A3_kUGFW5nweEQaT3TH-kb6QGY0WxxgqWY70Eg8RjdbZj2Mlt-QPwRJmvzE0TBd779fLRMXb7JRgpXlMJ2hNjrvdTnokEi3WiQg1G8s3Rv22gWT6tWjBRKw8-qRQuWO0JsOmkf-ik1hMfEuWoubrRUL3PjPP7m_4p8jFCUNtS" /></strong>
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center"> <strong id="docs-internal-guid-ef920c3e-7fff-a5b2-b374-71898ea5fc27"></strong><strong id="docs-internal-guid-0dfeb089-7fff-d90b-06a9-940eafc68dd7"></strong><strong id="docs-internal-guid-7c5db61d-7fff-6bef-5bea-92cee190b3f5"><img width="113px;" height="113px;" src="https://lh4.googleusercontent.com/dwYSz4ZVCg0npTOswqr5xZ6A3_kUGFW5nweEQaT3TH-kb6QGY0WxxgqWY70Eg8RjdbZj2Mlt-QPwRJmvzE0TBd779fLRMXb7JRgpXlMJ2hNjrvdTnokEi3WiQg1G8s3Rv22gWT6tWjBRKw8-qRQuWO0JsOmkf-ik1hMfEuWoubrRUL3PjPP7m_4p8jFCUNtS" /></strong>
             <h3>Pressure to release</h3>
             <p class="text-center">Internal and external factors contribute to pressure to meet deadlines even if a product is not ready for market.</p>
           </div>
@@ -109,7 +109,7 @@
             <h3>Volatility &amp; uncertainty</h3>
             <p class="text-center">Inadequate and unknown requirements, scope creep and frequent feature modifications from poor project management.</p>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 text-center"> <strong><img width="160px;" height="160px;" src="https://lh3.googleusercontent.com/IF2uZZllkwn39P0o0ld7TqvR0pwxm9DdqfWDEt0z9rlNjhUyly5_k3mcf-1AAmXvJo3jNdaGGhU0nuthbpdQXv70tAHrTKV_FR9JXArfl-14GzdVF6RYxZvgwtRuQdNGeoJ3gSrk6ggw9yOkWr1jDqdy-abyo8X2MxqsekSDERX8dVC8R_mzmh3fnP7OyeSr" /></strong>
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center"> <strong id="docs-internal-guid-4fbac581-7fff-91b2-dbd9-cae2295fd2f3"><img width="160px;" height="160px;" src="https://lh3.googleusercontent.com/IF2uZZllkwn39P0o0ld7TqvR0pwxm9DdqfWDEt0z9rlNjhUyly5_k3mcf-1AAmXvJo3jNdaGGhU0nuthbpdQXv70tAHrTKV_FR9JXArfl-14GzdVF6RYxZvgwtRuQdNGeoJ3gSrk6ggw9yOkWr1jDqdy-abyo8X2MxqsekSDERX8dVC8R_mzmh3fnP7OyeSr" /></strong>
             <h3>Optimism &amp; bias &nbsp;</h3>
             <p>Executives focus on company’s capabilities &amp; experience, suppressing pessimistic views and not getting an unbiased external view. </p>
           </div>
@@ -123,19 +123,19 @@
             <h3>Too much complexity</h3>
             <p class="text-center">Large systems with a lot of interdependencies often take more time and effort to modify and test.</p>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 text-center"><strong><img width="113px;" height="113px;" src="https://lh4.googleusercontent.com/dwYSz4ZVCg0npTOswqr5xZ6A3_kUGFW5nweEQaT3TH-kb6QGY0WxxgqWY70Eg8RjdbZj2Mlt-QPwRJmvzE0TBd779fLRMXb7JRgpXlMJ2hNjrvdTnokEi3WiQg1G8s3Rv22gWT6tWjBRKw8-qRQuWO0JsOmkf-ik1hMfEuWoubrRUL3PjPP7m_4p8jFCUNtS" /></strong>
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center"> <strong id="docs-internal-guid-ef920c3e-7fff-a5b2-b374-71898ea5fc27"></strong><strong id="docs-internal-guid-0dfeb089-7fff-d90b-06a9-940eafc68dd7"></strong><strong id="docs-internal-guid-7c5db61d-7fff-6bef-5bea-92cee190b3f5"><img width="113px;" height="113px;" src="https://lh4.googleusercontent.com/dwYSz4ZVCg0npTOswqr5xZ6A3_kUGFW5nweEQaT3TH-kb6QGY0WxxgqWY70Eg8RjdbZj2Mlt-QPwRJmvzE0TBd779fLRMXb7JRgpXlMJ2hNjrvdTnokEi3WiQg1G8s3Rv22gWT6tWjBRKw8-qRQuWO0JsOmkf-ik1hMfEuWoubrRUL3PjPP7m_4p8jFCUNtS" /></strong>
             <h3>Poor execution</h3>
             <p class="text-center">Inadequate requirements that are not traceable. Insufficient plans to mitigate risks, communicate, test, and measure success.</p>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 text-center"> <strong><img width="113px;" height="113px;" src="https://lh5.googleusercontent.com/ej1A7yIBACTEtaFwCf0HPGfuMtih9BBOwAMVp0fiNG-_C4-L647lNiOymH0Mk6jswS88MfJtxoXTjrfpdrj9jKvtv8hsx2F846tT-FVCfn3nEw4bE4Hv07dP_9IDBso6Aho6kZ31YrTKFeYsWcDgE7MPjrDaRA-R4A66BKPiifXHvkhP54u2fFSpqMkTwhB6" /></strong>
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center"> <strong id="docs-internal-guid-93b570af-7fff-c214-4be5-a5da9f68005d"><img width="113px;" height="113px;" src="https://lh5.googleusercontent.com/ej1A7yIBACTEtaFwCf0HPGfuMtih9BBOwAMVp0fiNG-_C4-L647lNiOymH0Mk6jswS88MfJtxoXTjrfpdrj9jKvtv8hsx2F846tT-FVCfn3nEw4bE4Hv07dP_9IDBso6Aho6kZ31YrTKFeYsWcDgE7MPjrDaRA-R4A66BKPiifXHvkhP54u2fFSpqMkTwhB6" /></strong>
             <h3>Improper expectations</h3>
             <p class="text-center">Team fails to set proper expectations with stakeholders or to communicate early and often on status.</p>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 text-center"> <strong><img width="113px;" height="113px;" src="https://lh6.googleusercontent.com/lFCV_bdM3qVAaoBBcyd58sXsMjTOJSkaJnnKYxMFE_s9fepRPoZcHViWHOSCyRZu90lQl1jEcHUmiU38vwdGDlrKjF5RUK-FhyxWMto4DdOLxLC7IT64xtMDEe_ZSd-BUQtUj4emCs6cmhl704V-uy8H_o8LO3Zkfuc_q7vKDpb8cnQiuo8IAz9ZpKpyFk2e" /></strong>
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center"> <strong id="docs-internal-guid-8ed8f23e-7fff-8f11-8357-590ff38defc5"><img width="113px;" height="113px;" src="https://lh6.googleusercontent.com/lFCV_bdM3qVAaoBBcyd58sXsMjTOJSkaJnnKYxMFE_s9fepRPoZcHViWHOSCyRZu90lQl1jEcHUmiU38vwdGDlrKjF5RUK-FhyxWMto4DdOLxLC7IT64xtMDEe_ZSd-BUQtUj4emCs6cmhl704V-uy8H_o8LO3Zkfuc_q7vKDpb8cnQiuo8IAz9ZpKpyFk2e" /></strong>
             <h3>Wrong audience&nbsp;</h3>
             <p class="text-center">Companies can end up with non-ideal users who won’t upgrade to paid and do not have adequate technical skills to use product.</p>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 text-center"> <strong><img width="160px;" height="160px;" src="https://lh3.googleusercontent.com/IF2uZZllkwn39P0o0ld7TqvR0pwxm9DdqfWDEt0z9rlNjhUyly5_k3mcf-1AAmXvJo3jNdaGGhU0nuthbpdQXv70tAHrTKV_FR9JXArfl-14GzdVF6RYxZvgwtRuQdNGeoJ3gSrk6ggw9yOkWr1jDqdy-abyo8X2MxqsekSDERX8dVC8R_mzmh3fnP7OyeSr" /></strong>
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center"> <strong id="docs-internal-guid-4fbac581-7fff-91b2-dbd9-cae2295fd2f3"><img width="160px;" height="160px;" src="https://lh3.googleusercontent.com/IF2uZZllkwn39P0o0ld7TqvR0pwxm9DdqfWDEt0z9rlNjhUyly5_k3mcf-1AAmXvJo3jNdaGGhU0nuthbpdQXv70tAHrTKV_FR9JXArfl-14GzdVF6RYxZvgwtRuQdNGeoJ3gSrk6ggw9yOkWr1jDqdy-abyo8X2MxqsekSDERX8dVC8R_mzmh3fnP7OyeSr" /></strong>
             <h3>Shifting priorities</h3>
             <p>Projects often fall prey to shifting business priorities caused by external factors, impacting team motivation and retention.</p>
           </div>
@@ -152,23 +152,23 @@
       </div>
       <div class="container ">
         <div class="row" style = "background: #847BEB">
-          <div class="col-lg-4 col-md-6 col-sm-12 text-center"> <strong><img width="130px;" height="113px;" src="https://lh3.googleusercontent.com/YF1SoCIWa0CvJ7dtc3EGZ_CW8quJRaCOu7MLmwpeO80HeYGzcvl5nZ4Y_UUQ4IUB-LyCjQ-2GPLgdb3-tsP1ZUhkgYIRg6FpgIuPKHJsaxWDmTeohaehsfYrkw0SapZYzUgpvs5eoAJt1EQwzYCIeUzX5MYd0YJDMHFhT5JBZSCoAmsmd7Z7J1x1IvWce08f" /></strong>
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center"> <strong id="docs-internal-guid-bb0d4269-7fff-041e-f0dc-c53481711f85"><img width="130px;" height="113px;" src="https://lh3.googleusercontent.com/YF1SoCIWa0CvJ7dtc3EGZ_CW8quJRaCOu7MLmwpeO80HeYGzcvl5nZ4Y_UUQ4IUB-LyCjQ-2GPLgdb3-tsP1ZUhkgYIRg6FpgIuPKHJsaxWDmTeohaehsfYrkw0SapZYzUgpvs5eoAJt1EQwzYCIeUzX5MYd0YJDMHFhT5JBZSCoAmsmd7Z7J1x1IvWce08f" /></strong>
             <h3>Reduce complexity</h3>
             <p class="text-center">Break projects down into user stories, acceptance criteria, and a definition of done.</p>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 text-center"><strong><img width="113px;" height="113px;" src="https://lh4.googleusercontent.com/dwYSz4ZVCg0npTOswqr5xZ6A3_kUGFW5nweEQaT3TH-kb6QGY0WxxgqWY70Eg8RjdbZj2Mlt-QPwRJmvzE0TBd779fLRMXb7JRgpXlMJ2hNjrvdTnokEi3WiQg1G8s3Rv22gWT6tWjBRKw8-qRQuWO0JsOmkf-ik1hMfEuWoubrRUL3PjPP7m_4p8jFCUNtS" /></strong>
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center"> <strong id="docs-internal-guid-ef920c3e-7fff-a5b2-b374-71898ea5fc27"></strong><strong id="docs-internal-guid-0dfeb089-7fff-d90b-06a9-940eafc68dd7"></strong><strong id="docs-internal-guid-7c5db61d-7fff-6bef-5bea-92cee190b3f5"><img width="113px;" height="113px;" src="https://lh4.googleusercontent.com/dwYSz4ZVCg0npTOswqr5xZ6A3_kUGFW5nweEQaT3TH-kb6QGY0WxxgqWY70Eg8RjdbZj2Mlt-QPwRJmvzE0TBd779fLRMXb7JRgpXlMJ2hNjrvdTnokEi3WiQg1G8s3Rv22gWT6tWjBRKw8-qRQuWO0JsOmkf-ik1hMfEuWoubrRUL3PjPP7m_4p8jFCUNtS" /></strong>
             <h3>Good management&nbsp;</h3>
             <p class="text-center">Create a prioritized backlog, project documentation, and plans to communicate, mitigate risk, test, and measure success.</p>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 text-center"> <strong><img width="113px;" height="113px;" src="https://lh5.googleusercontent.com/ej1A7yIBACTEtaFwCf0HPGfuMtih9BBOwAMVp0fiNG-_C4-L647lNiOymH0Mk6jswS88MfJtxoXTjrfpdrj9jKvtv8hsx2F846tT-FVCfn3nEw4bE4Hv07dP_9IDBso6Aho6kZ31YrTKFeYsWcDgE7MPjrDaRA-R4A66BKPiifXHvkhP54u2fFSpqMkTwhB6" /></strong>
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center"> <strong id="docs-internal-guid-93b570af-7fff-c214-4be5-a5da9f68005d"><img width="113px;" height="113px;" src="https://lh5.googleusercontent.com/ej1A7yIBACTEtaFwCf0HPGfuMtih9BBOwAMVp0fiNG-_C4-L647lNiOymH0Mk6jswS88MfJtxoXTjrfpdrj9jKvtv8hsx2F846tT-FVCfn3nEw4bE4Hv07dP_9IDBso6Aho6kZ31YrTKFeYsWcDgE7MPjrDaRA-R4A66BKPiifXHvkhP54u2fFSpqMkTwhB6" /></strong>
             <h3>Manage stakeholders</h3>
             <p class="text-center">Set stakeholder expectations, communicating delays and reasons as soon as possible.</p>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 text-center"> <strong><img width="113px;" height="113px;" src="https://lh6.googleusercontent.com/lFCV_bdM3qVAaoBBcyd58sXsMjTOJSkaJnnKYxMFE_s9fepRPoZcHViWHOSCyRZu90lQl1jEcHUmiU38vwdGDlrKjF5RUK-FhyxWMto4DdOLxLC7IT64xtMDEe_ZSd-BUQtUj4emCs6cmhl704V-uy8H_o8LO3Zkfuc_q7vKDpb8cnQiuo8IAz9ZpKpyFk2e" /></strong>
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center"> <strong id="docs-internal-guid-8ed8f23e-7fff-8f11-8357-590ff38defc5"><img width="113px;" height="113px;" src="https://lh6.googleusercontent.com/lFCV_bdM3qVAaoBBcyd58sXsMjTOJSkaJnnKYxMFE_s9fepRPoZcHViWHOSCyRZu90lQl1jEcHUmiU38vwdGDlrKjF5RUK-FhyxWMto4DdOLxLC7IT64xtMDEe_ZSd-BUQtUj4emCs6cmhl704V-uy8H_o8LO3Zkfuc_q7vKDpb8cnQiuo8IAz9ZpKpyFk2e" /></strong>
             <h3>Adequate estimates&nbsp;&nbsp;</h3>
             <p class="text-center">Set projects up for success by providing an adequate cost buffer and sufficient time to complete tasks and fulfill requirements.</p>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 text-center"> <strong><img width="160px;" height="160px;" src="https://lh3.googleusercontent.com/IF2uZZllkwn39P0o0ld7TqvR0pwxm9DdqfWDEt0z9rlNjhUyly5_k3mcf-1AAmXvJo3jNdaGGhU0nuthbpdQXv70tAHrTKV_FR9JXArfl-14GzdVF6RYxZvgwtRuQdNGeoJ3gSrk6ggw9yOkWr1jDqdy-abyo8X2MxqsekSDERX8dVC8R_mzmh3fnP7OyeSr" /></strong>
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center"> <strong id="docs-internal-guid-4fbac581-7fff-91b2-dbd9-cae2295fd2f3"><img width="160px;" height="160px;" src="https://lh3.googleusercontent.com/IF2uZZllkwn39P0o0ld7TqvR0pwxm9DdqfWDEt0z9rlNjhUyly5_k3mcf-1AAmXvJo3jNdaGGhU0nuthbpdQXv70tAHrTKV_FR9JXArfl-14GzdVF6RYxZvgwtRuQdNGeoJ3gSrk6ggw9yOkWr1jDqdy-abyo8X2MxqsekSDERX8dVC8R_mzmh3fnP7OyeSr" /></strong>
             <h3>Target the right users</h3>
             <p>Identify the audience that is interested in your product and preferably willing to pay for it, targeting with a convincing message. </p>
           </div>
@@ -182,19 +182,19 @@
             <h3>Manage risks</h3>
             <p class="text-center">Teams should be pessimistic in identifying risks, their likelihood, and create mitigation plans to reduce risks.</p>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 text-center"><strong><img width="113px;" height="113px;" src="https://lh4.googleusercontent.com/dwYSz4ZVCg0npTOswqr5xZ6A3_kUGFW5nweEQaT3TH-kb6QGY0WxxgqWY70Eg8RjdbZj2Mlt-QPwRJmvzE0TBd779fLRMXb7JRgpXlMJ2hNjrvdTnokEi3WiQg1G8s3Rv22gWT6tWjBRKw8-qRQuWO0JsOmkf-ik1hMfEuWoubrRUL3PjPP7m_4p8jFCUNtS" /></strong>
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center"> <strong id="docs-internal-guid-ef920c3e-7fff-a5b2-b374-71898ea5fc27"></strong><strong id="docs-internal-guid-0dfeb089-7fff-d90b-06a9-940eafc68dd7"></strong><strong id="docs-internal-guid-7c5db61d-7fff-6bef-5bea-92cee190b3f5"><img width="113px;" height="113px;" src="https://lh4.googleusercontent.com/dwYSz4ZVCg0npTOswqr5xZ6A3_kUGFW5nweEQaT3TH-kb6QGY0WxxgqWY70Eg8RjdbZj2Mlt-QPwRJmvzE0TBd779fLRMXb7JRgpXlMJ2hNjrvdTnokEi3WiQg1G8s3Rv22gWT6tWjBRKw8-qRQuWO0JsOmkf-ik1hMfEuWoubrRUL3PjPP7m_4p8jFCUNtS" /></strong>
             <h3>Set milestones</h3>
             <p class="text-center">Project managers should identify important milestones that will indicate the project is on track, and celebrate wins.</p>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 text-center"> <strong><img width="113px;" height="113px;" src="https://lh5.googleusercontent.com/ej1A7yIBACTEtaFwCf0HPGfuMtih9BBOwAMVp0fiNG-_C4-L647lNiOymH0Mk6jswS88MfJtxoXTjrfpdrj9jKvtv8hsx2F846tT-FVCfn3nEw4bE4Hv07dP_9IDBso6Aho6kZ31YrTKFeYsWcDgE7MPjrDaRA-R4A66BKPiifXHvkhP54u2fFSpqMkTwhB6" /></strong>
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center"> <strong id="docs-internal-guid-93b570af-7fff-c214-4be5-a5da9f68005d"><img width="113px;" height="113px;" src="https://lh5.googleusercontent.com/ej1A7yIBACTEtaFwCf0HPGfuMtih9BBOwAMVp0fiNG-_C4-L647lNiOymH0Mk6jswS88MfJtxoXTjrfpdrj9jKvtv8hsx2F846tT-FVCfn3nEw4bE4Hv07dP_9IDBso6Aho6kZ31YrTKFeYsWcDgE7MPjrDaRA-R4A66BKPiifXHvkhP54u2fFSpqMkTwhB6" /></strong>
             <h3>Get outside view</h3>
             <p class="text-center">Bring in external consultants to provide an unbiased view, also called reference-class forecasting.</p>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 text-center"> <strong><img width="113px;" height="113px;" src="https://lh6.googleusercontent.com/lFCV_bdM3qVAaoBBcyd58sXsMjTOJSkaJnnKYxMFE_s9fepRPoZcHViWHOSCyRZu90lQl1jEcHUmiU38vwdGDlrKjF5RUK-FhyxWMto4DdOLxLC7IT64xtMDEe_ZSd-BUQtUj4emCs6cmhl704V-uy8H_o8LO3Zkfuc_q7vKDpb8cnQiuo8IAz9ZpKpyFk2e" /></strong>
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center"> <strong id="docs-internal-guid-8ed8f23e-7fff-8f11-8357-590ff38defc5"><img width="113px;" height="113px;" src="https://lh6.googleusercontent.com/lFCV_bdM3qVAaoBBcyd58sXsMjTOJSkaJnnKYxMFE_s9fepRPoZcHViWHOSCyRZu90lQl1jEcHUmiU38vwdGDlrKjF5RUK-FhyxWMto4DdOLxLC7IT64xtMDEe_ZSd-BUQtUj4emCs6cmhl704V-uy8H_o8LO3Zkfuc_q7vKDpb8cnQiuo8IAz9ZpKpyFk2e" /></strong>
             <h3>Decouple systems</h3>
             <p class="text-center">Decoupling features into microservices, such as apps that run on a platform, but could be released separately.</p>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 text-center"> <strong><img width="160px;" height="160px;" src="https://lh3.googleusercontent.com/IF2uZZllkwn39P0o0ld7TqvR0pwxm9DdqfWDEt0z9rlNjhUyly5_k3mcf-1AAmXvJo3jNdaGGhU0nuthbpdQXv70tAHrTKV_FR9JXArfl-14GzdVF6RYxZvgwtRuQdNGeoJ3gSrk6ggw9yOkWr1jDqdy-abyo8X2MxqsekSDERX8dVC8R_mzmh3fnP7OyeSr" /></strong>
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center"> <strong id="docs-internal-guid-4fbac581-7fff-91b2-dbd9-cae2295fd2f3"><img width="160px;" height="160px;" src="https://lh3.googleusercontent.com/IF2uZZllkwn39P0o0ld7TqvR0pwxm9DdqfWDEt0z9rlNjhUyly5_k3mcf-1AAmXvJo3jNdaGGhU0nuthbpdQXv70tAHrTKV_FR9JXArfl-14GzdVF6RYxZvgwtRuQdNGeoJ3gSrk6ggw9yOkWr1jDqdy-abyo8X2MxqsekSDERX8dVC8R_mzmh3fnP7OyeSr" /></strong>
             <h3>Engage sponsor</h3>
             <p>Communicate early and often to ensure sponsor aligns with expectations and has real-time insight into status.</p>
           </div>
@@ -213,40 +213,25 @@ Best of all, by building more components every release, it’s actually less ris
 Because everyone is testing the product continually, both in staging and production environments, bugs are identified and prioritized more quickly.
 Team daily standups and weekly project leads meetings help remove blockers, mitigating the risk of missing sprint and release deadlines.
 </p>
-				<img src="./Images/value.png"/>
+				<img src="value.png"/>
               <p class="text-left">&nbsp;Source: <a href="https://blog.ganttpro.com/en/waterfall-vs-agile-with-advantages-and-disadvantages/">Agile vs Waterfall: Pros and Cons, Differences and Similarities (GanttPRO)</a></p>
 <p>&nbsp;</p>
             </div>
           </div>
         </div>
 		 <div class="container">
-         <div class="row">
+          <div class="row">
             <div class="col-12">
               <h1 class="text-center">Greater visibility lets you know where you are</h1>
               <p class="text-left">With waterfall, there are long periods where we can’t tell how much progress we’ve made and can’t get feedback. It’s easy to make big, costly mistakes that are hard to fix this late in the process.
 We also can’t pivot quickly if we find that we’re moving in the wrong direction.
 &nbsp;</p>
-				<img src="./Images/Waterfall.png" width="750" height="335"/>
+				<img src="Waterfall.png" width="750" height="335"/>
               <p class="text-left">&nbsp;Source: <a href="https://scholarlykitchen.sspnet.org/2019/07/08/agile-isnt-always-cheaper-but-it-should-mitigate-risk/">Agile isn’t Always Cheaper, But it Should Mitigate Risks</a></p>
 <p>&nbsp;With agile, we’re continually assessing requirements and have visibility at many points along the path. It’s easier to fix smaller mistakes earlier in the process. It also allows us to pivot quickly if we need to.</p>
 				
-				<img src="../Documents/GitHub/agilecoach/Images/Agile.png" width="750"/>
+				<img src="Agile.png" width="750"/>
 			<p class="text-left">&nbsp;Source: <a href="https://scholarlykitchen.sspnet.org/2019/07/08/agile-isnt-always-cheaper-but-it-should-mitigate-risk/">Agile isn’t Always Cheaper, But it Should Mitigate Risks (The Scholarly Kitchen)</a></p>
-            </div>
-          </div>
-        </div>
-		 <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <h1 class="text-center">Adapt quickly to change</h1>
-              <p class="text-left">Change can happen at any time during the course of a project, from a competitor releasing a new feature to disruptive advances in technology.&nbsp;</p>
-				<img src="../Documents/GitHub/agilecoach/Images/Change.png" width="750" height="390"/>
-              <p class="text-left">&nbsp;Source: <a href="https://www.researchgate.net/figure/The-opportunity-to-make-changes-in-design-vs-cost_fig3_2490356">ResearchGate</a></p>
-			  <p>Although change is inevitable, it is important to avoid <strong>scope creep</strong>, when additional scope or requirements are added without changing the schedule, budget, or available human resources.</p>
-			  <p>To combat this problem, teams implement a change control system, wherein all changes are rated based on the level of effort vs expected value they will bring.</p>
-				
-			  <img src="../Documents/GitHub/agilecoach/Images/Changecost.png" width="750"/>
-			<p class="text-left">&nbsp;Source: <a href="https://www.pinterest.com/pin/agile-projectmanagment-vs-traditional-project-management--322007442103010678/">Pinterest</a></p>
             </div>
           </div>
         </div>
@@ -272,7 +257,7 @@ We also can’t pivot quickly if we find that we’re moving in the wrong direct
 					<li>breaking work into user stories</li>
 					<li>creating a definition of done</li>
 				</ul></p>
-			  <img src="../Documents/GitHub/agilecoach/Images/sprint.png" width="750" height="335"/>
+			  <img src="sprint.png" width="750" height="335"/>
               <p class="text-left">&nbsp;Source: <a href="https://jadealm.com/blog/difference-between-acceptance-criteria-and-defintion-of-done/">Difference Between Acceptance Criteria and Definition of Done (JadeALM)</a></p>
 <p>Acceptance criteria:</p>
 			  <p><ul>
@@ -282,66 +267,8 @@ We also can’t pivot quickly if we find that we’re moving in the wrong direct
 			  	<li>Ensure that it is clear how to track that each requirement has been satisfied.</li>
 			  </ul></p>
 				
-				<img src="../Documents/GitHub/agilecoach/Images/acceptance.png" width="750"/>
+				<img src="acceptance.png" width="750"/>
 			<p class="text-left">&nbsp;Source: <a href="https://jadealm.com/blog/difference-between-acceptance-criteria-and-defintion-of-done/">Difference Between Acceptance Criteria and Definition of Done (JadeALM)</a></p>
-            </div>
-          </div>
-        </div>
-		<div class="container">
-          <div class="row">
-            <div class="col-12">
-              <h1 class="text-center">Break work down into user stories &amp; acceptance criteria</h1>
-              <p class="text-left">We create user stories by putting the user in the story. User stories are units of work that make up the project. Sprints are usually 2-4 weeks. Ideally, a story can be completed in 1-2 sprints.</p>
-				
-				<p><i>Example:</i>
-				<br />
-				<strong>As a student, I want to be able to forecast my grade based on my current progress.</strong></p>
-			  <p>Before the sprint starts, the team should understand the acceptance criteria to satisfy the user story:</p>
-				<p><ul>
-					<li>All grades for a class should be in one location</li>
-					<li>Users can enter potential grade values in all assignments</li>
-					<li>Potential grade values should be calculated to a letter grade, according to school’s grading system</li>
-				</ul></p>
-			  <figure>
-				  <img src="../Documents/GitHub/agilecoach/Images/done.png" width="750" height="335"/>
-				  <figcaption>At the end of every sprint, we have a feature that is complete or partially complete, but that is <strong>functional</strong>.<br>Source: <a href="https://agilepainrelief.com/blog/definition-of-done-user-stories-acceptance-criteria.html">Definition of Done vs. User Stories vs. Acceptance Criteria (Agile Pain Relief)</a></figcaption></figure>
-			  <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <h1 class="text-center">Engage stakeholders</h1>
-              <p class="text-left">Project managers need to work with stakeholders to:</p>
-				<p><ul>
-					<li>determine requirements, </li>
-					<li>manage expectations, </li>
-					<li>resolve issues, </li>
-					<li>negotiate conflicts, </li>
-			  		<li>prioritize functionalities and features, </li>
-			  		<li>and make decisions with stakeholder buy-in</li>
-				</ul></p>
-			  <img src="../Documents/GitHub/agilecoach/Images/stakeholder.png" width="650" height="380"/>
-              <p class="text-left">&nbsp;Source: <a href="https://www.istockphoto.com/photo/profit-through-cooperation-gm154933606-15650462">iStock</a></p>
-			  <p>You have to have <strong>soft skills:</strong> listening attentively, building relationships, being empathetic, and managing conflicts. They also need <strong>leadership skills</strong> to create the vision, prioritize and resource appropriately, and adapt to change quickly.</p>
-            </div>
-          </div>
-        </div>
-		<div class="container">
-          <div class="row">
-            <div class="col-12">
-              <h1 class="text-center">Measure success via feedback and retention</h1>
-				<p><ul>
-					<li><strong>Stakeholder engagement:</strong> Make sure the team is engaged and invested in the solution.</li>
-					<li><strong>Feature adoption:</strong> Measure the success of new features and functionality via usage and usability testing</li>
-					<li><strong>Task success:</strong> Perform A/B testing to test hypotheses between two solutions to see which performs better in time on task and task success.</li>
-					<li><strong>User sentiment &amp; satisfaction:</strong> After usability testing, provide surveys to understand overall user sentiment on the UX and task-level perceived ease-of-use.</li>
-			  		<li><strong>Training &amp; support:</strong> Provide seamless support, training, and docs to ensure your users are successful.</li>
-					<li><strong>User retention:</strong> Benchmark user retention with current system vs new one.</li>
-					<li><strong>Referrals:</strong> Happy customers invite others, increasing company growth.</li>
-					<li><strong>Retain employees:</strong> Happy employees reduce risk of lost knowledge and experience</li>
-				</ul></p>
-			  <img src="../Documents/GitHub/agilecoach/Images/Feedback.png" width="650" height="380"/>
-              <p class="text-left">&nbsp;Source: <a href="https://www.touchwork.com/leverage-right-technology-gather-customer-feedback/">Touchwork</a></p>
-			  <img src="../Documents/GitHub/agilecoach/Images/barchart.png" width="650" height="300"/>
-              <p class="text-left">&nbsp;Source: <a href="https://www.equalexperts.com/blog/our-thinking/how-to-measure-product-delivery-success/">Equal Experts</a></p>
             </div>
           </div>
         </div>
@@ -431,11 +358,6 @@ We also can’t pivot quickly if we find that we’re moving in the wrong direct
           </div>
         </div>
       </div>
-	</div>
-	</div>
-	</div>
-	</div>
-	</div>
     </section>
     <div class="container">
       <div class="row">
